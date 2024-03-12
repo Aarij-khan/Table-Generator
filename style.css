@@ -1,0 +1,58 @@
+body{
+    color: white;
+    background-image: linear-gradient(grey,blue);
+}
+#form{
+    height: 45px;
+    width: 30vw;
+    margin-left: 30vw;
+    border-right: none;
+    font-size: 19px;
+    
+}
+#div{
+    margin-left: 31%;
+    margin-top: 30px;
+    background-color:  rgb(99, 99, 196);
+    border: 2px solid rgba(128, 128, 128, 0.432);
+    box-shadow: -8px -10px 5px rgb(127, 230, 230);
+    border-radius: 15px;
+    height: 600px;
+    width: 25vw;
+    padding: 20px;
+}
+#button{
+    height:50.9px;
+    width: 100px;
+    background-color: rgb(99, 99, 196);
+    color: white;
+    letter-spacing: 2px;
+    font-size: 19px;
+    border-left: none;
+    margin-left: -5px;
+    
+    
+          
+}
+@media screen and (max-width:500px){
+    #form{
+        width: 60vw;
+        margin-left: 40px;
+        font-size: 18px;
+    } 
+    #div{
+        width: 60vw;
+        margin-left: 50px;
+    } 
+}
+@media screen and (max-width:400px){
+    #form{
+        width: 58vw;
+        margin-left: 30px;
+        font-size: 16px;
+    } 
+    #button{
+        width: 90px;
+
+    }
+}
